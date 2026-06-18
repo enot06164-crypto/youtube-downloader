@@ -3,6 +3,7 @@ __pycache__/
 *.pyo
 build/
 dist/
+bin/
 *.spec.bak
 .installer_output/
 installer_output/
