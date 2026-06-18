@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+build/
+dist/
+*.spec.bak
+.installer_output/
+installer_output/
+*.log
+.env
+.env.*
+venv/
+.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
