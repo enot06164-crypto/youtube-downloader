@@ -193,3 +193,6 @@ C:\Users\<ВашеИмя>\Загрузки\YouTube Downloader\
 ---
 
 **Версия 0.1.0 | Июнь 2026**
+
+## Linux Install (verified 2026-10-26)
+- AppImage / .deb / ELF / pip available at Releases.
