@@ -40,7 +40,6 @@ APP_VERSION = "0.1.0"
 
 class DownloadCancelled(Exception):
     """Исключение, сигнализирующее об отмене загрузки пользователем."""
-    pass
 
 
 # =============================================================================
@@ -350,7 +349,6 @@ class Downloader:
                 try:
                     self._ydl.close()
                 except Exception:
-                    pass
 
 
 # =============================================================================
@@ -397,7 +395,6 @@ class App(ctk.CTk):
             try:
                 self.wm_iconbitmap(ICON_PATH)
             except Exception:
-                pass
         else:
             # Пути поиска: рядом с .exe, рядом с исходником, в _MEIPASS
             search_dirs = []
@@ -412,7 +409,6 @@ class App(ctk.CTk):
                     try:
                         self.wm_iconbitmap(icon_path)
                     except Exception:
-                        pass
                     break
 
     def _create_downloads_folder(self) -> str:
@@ -765,7 +761,6 @@ class App(ctk.CTk):
             try:
                 self.after(ms, func)
             except Exception:
-                pass
 
     def _download_thread(self, url: str, quality: str) -> None:
         """Поток загрузки."""
