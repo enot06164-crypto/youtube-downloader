@@ -1,0 +1,6 @@
+# Config for youtube-downloader (replaces hardcoded paths)
+download_dir: ./downloads
+temp_dir: ./tmp
+max_quality: 320
+output_format: mp3
+log_level: INFO
